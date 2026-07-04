@@ -77,3 +77,29 @@ print("The compound interest is:", round(compound_interest, 2))
 
 
 """
+# len() function is used to find the length of a string
+# start: starting index of the substring to be searched. Default is 0.
+# end: ending index of the substring to be searched. Default is the length of the string.
+#[-1] is used to access the last index of a string
+# fstring is used to format a string by embedding expressions inside string literals
+#fstring= f"Hello, {first_name} {last_name}! Welcome to the Python program."
+# escape sequences are used to represent special characters in a string
+# \n= new line
+# \t= tab
+# apostrophe= \'
+# backslash= \\ to represent a backslash in a string
+# comparison of strings is done using comparison operators
+# strip() function is used to remove the leading and trailing whitespaces from a string
+#replace() function is used to replace a substring with another substring in a string
+# _old= substring to be replaced
+# _new= substring to replace with
+# replace(_old, _new)= string.replace(_old, _new)
+# count() function is used to count the number of occurrences of a substring in a string
+# string.count(substring)
+# upper() function is used to convert a string to uppercase
+# lower() function is used to convert a string to lowercase
+# capitalize() function is used to convert the first character of a string to uppercase and the rest to lowercase
+# title() function is used to convert the first character of each word in a string to uppercase and the rest to lowercase
+# startswith() function is used to check if a string starts with a specified substring
+# PYTHON IS CASE SENSITIVE LANGUAGE
+# endswith() function is used to check if a string ends with a specified substring
