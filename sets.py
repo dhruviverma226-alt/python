@@ -22,3 +22,19 @@
 # set.remove(element)
 # discard method is used to remove a specified element from the set. If the element is not found, it does nothing (no error).
 # set.discard(element)
+
+# DAY 4-
+
+# Operations on sets: union, intersection, difference!!
+# intersection- common items in sets.
+# syntax: sets.intersection, &
+# union: all items of the set
+# syntax: sets.union(sets2, sets3)
+# sets1 | sets2
+# when there are no common items in two or more sets then it gives empty set i.e., set().
+# difference: difference in the two or more sets.
+# syntax: sets.difference(set2).
+
+# frozen sets: they are immutable sets.
+# syntax: fset = frozenset{}
+# union, intersection and difference works in frozen set.
