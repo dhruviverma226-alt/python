@@ -50,7 +50,11 @@
 # to print every key value pairs- items() is used
 # example: print(my_dict.items())
 # shallow and deep copy: 
-# first import copy module
+# first import-  copy module
+####
 # import copy
 # l1= [1, 2, [1,5,6], 30]
 # l2 = copy.copy(l1)
+# deep copy refers to the command where inner elements also get asigned a different memory address 
+# shallow copy refers to the command where inner elements also get asigned the same memory address as the original list
+# shallow copy is faster than deep copy.
