@@ -11,8 +11,28 @@ for var in sequence:
     ...
     statementn
 """
-marks= [85.5, 81.0, 86.0, 83.5]
-print(marks[0])
-for m in marks:
-    print(m)
-    
+# marks= [85.5, 81.0, 86.0, 83.5]
+# print(marks[0])
+# for m in marks:
+#     print(m)
+# loop runs through the length of the list and prints each element of the list
+
+# for loop in a string
+"""s1= "hello world"
+for char in s1:
+    print(char)"""
+# loop runs through the length of the string and prints each character of the string
+
+# for loop in a dictionary
+"""emp= {"id":1001, "name": "dhruvi"}
+for key in emp:
+    print(key, emp[key])"""
+# loop runs through the length of the dictionary and prints each key and value of the dictionary
+# range function: it generates a sequence of numbers
+# syntax: range(start, stop, step)
+# start: the starting point of the sequence (default is 0)
+# stop: the stopping point of the sequence (default is infinite)
+"""for i in range(10, 0, -1):
+    print(i)
+print("happy new year")
+"""
