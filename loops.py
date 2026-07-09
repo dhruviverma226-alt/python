@@ -28,6 +28,7 @@ for char in s1:
 for key in emp:
     print(key, emp[key])"""
 # loop runs through the length of the dictionary and prints each key and value of the dictionary
+
 # range function: it generates a sequence of numbers
 # syntax: range(start, stop, step)
 # start: the starting point of the sequence (default is 0)
@@ -35,4 +36,10 @@ for key in emp:
 """for i in range(10, 0, -1):
     print(i)
 print("happy new year")
+"""
+"""
+profits= [9, 11, 6, 10]
+for index in range(len(profits)):
+    q= index + 1
+    print("profit of quarter", q, "is", profits[index])
 """
