@@ -43,3 +43,22 @@ for index in range(len(profits)):
     q= index + 1
     print("profit of quarter", q, "is", profits[index])
 """
+"""
+# continue and break statements: 
+for num in range(10):
+    if num % 3 == 0:
+        continue #skips whatever is written after this line
+    print(num)
+"""
+"""
+for num in range (1, 10):
+    if num % 3 == 0:
+        break # terminates the loop
+    print(num)
+"""
+
+# while loop is used when the number of iterations is not known in advance
+# while loop is used when the condition is checked before the loop starts
+# while loop is used when the condition is checked after the loop ends
+# syntax: while condition:
+
