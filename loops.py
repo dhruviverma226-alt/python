@@ -61,4 +61,85 @@ for num in range (1, 10):
 # while loop is used when the condition is checked before the loop starts
 # while loop is used when the condition is checked after the loop ends
 # syntax: while condition:
+"""num = 1
+while num < 5:
+    num += 1
+    print(num)"""
 
+# infinite loop
+"""while true:
+    print("hello")
+"""
+# break statement
+"""num = 1
+while num < 5:
+    num += 1
+    if num == 3:
+        break
+    print(num)"""
+"""import random
+nums= [10,4,1,8,4,3]
+print(random.choice(nums))"""
+
+# random.shuffle - shuffles the list
+# nested loops:
+
+"""for i in range(3):
+    for j in range(2):
+        print(f"i={i}, j= {j}")"""
+
+# start pattern
+"""for i in range(1,6):
+    for j in range(1, i+1):
+        print('x', end=" ")
+    print()"""
+
+# exercise:
+"""
+write a program to simuate a roll of a dice
+a dice has 6 faces with number 1 to 6 written on them
+the program should random;y print a number between 1 to 6
+
+"""
+"""import random
+print("let's start the dice game")
+while True:
+    choice= input("roll the dice by pressing 'ENTER' or 'q' to quit..  ")
+    if choice =='q':
+        print('Thanks for playing')
+        break
+    elif choice == '':
+        number = random.randint(1, 6)   
+        print(number)
+
+    else: 
+        print("invalid input")"""
+#  count all the countries which are starting with 'I'[
+"""countries= ["India", "United States", "Australia", "Ireland", "Shri lanka", "Iceland",
+             "Cuba", "Iran", "Poland"]
+counter= 0
+for country in countries:
+    if country[0] == 'I':
+        counter += 1
+print(counter)""" ##1
+
+# using country.startswith('I')
+# using empty output list and then appending the list
+# output.append(country)
+""" we have the following dictionary containing details:
+user= 
+      "username" : "myuser",
+      "password" : "test@123,
+      "email" : "myemail@gmail.com"
+      "address" "ABC road, 111111"
+      "country" : "Australia"
+
+}
+sensitive_info = ["password", "address", "phone"]
+for i in sensitive_info:
+    if i in user:
+        print(f"DELETED ==> key: {i}, value: {user[i]"})
+        user.pop(i)
+    else:
+        print(f"{i} not present")
+"""
