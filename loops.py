@@ -126,20 +126,48 @@ print(counter)""" ##1
 # using country.startswith('I')
 # using empty output list and then appending the list
 # output.append(country)
-""" we have the following dictionary containing details:
-user= 
-      "username" : "myuser",
-      "password" : "test@123,
-      "email" : "myemail@gmail.com"
-      "address" "ABC road, 111111"
+# we have the following dictionary containing details:
+"""user= {"user_name" : "myuser",
+      "password" : "test@123",
+      "email" : "myemail@gmail.com",
+      "address":"ABC road, 111111",
       "country" : "Australia"
 
 }
 sensitive_info = ["password", "address", "phone"]
 for i in sensitive_info:
     if i in user:
-        print(f"DELETED ==> key: {i}, value: {user[i]"})
+        print(f"DELETED => key: {i}, value: {user[i]}")
         user.pop(i)
     else:
         print(f"{i} not present")
-"""
+print(user)"""
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# Number Guessing game!!!
+
+import random
+print("let's play the number guessing game")
+print("The secret number is between 1 and 100") 
+secretnum = random.randint(1, 100)
+guesses = 0
+while True:
+    guess = int(input("Enter your guess: "))
+    guesses += 1
+    while guesses < 10: 
+        if guesses > 10:
+            print("game over!!")   
+    if guess < secretnum:
+        print("Too low! Try again.")
+    elif guess > secretnum:
+        print("Too high! Try again.")
+    else:
+        print("Congratulations! You guessed the secret number in", guesses, "guesses.")
+        break
+
