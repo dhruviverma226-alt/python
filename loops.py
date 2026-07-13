@@ -152,7 +152,7 @@ print(user)"""
 # 
 # Number Guessing game!!!
 
-import random
+"""import random
 print("let's play the number guessing game")
 print("The secret number is between 1 and 100") 
 secretnum = random.randint(1, 100)
@@ -168,4 +168,7 @@ while guesses <= 10:
         print("Congratulations! You guessed the secret number in", guesses, "guesses.")
 else:
     print("Game Over! Better luck next time")
-    
+    """
+
+
+# LOOPS COMPLETED!!!!!!!
