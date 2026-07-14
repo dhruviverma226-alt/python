@@ -6,6 +6,6 @@ Problem Statement: Write a Python program that:
 3.   Displays the final sum.
 """
 num= 1
-for i in range(1, 50):
+for i in range(1, 51):
     num+= i
 print("The sum of integers from 1 to 50 is:", num)
