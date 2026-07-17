@@ -30,3 +30,12 @@ even_odd(10)"""
         return "odd"
 print(even_odd(10))
 """
+# types of argument
+# default argument, Keyword argument, *args (allows variable-length) argument
+# *args- allows multiple values, the values are stored in a tuple. 
+# *args is just a standard way. any variable can be used instead of args such as *nums
+# **kwargs is the variable length keyword argument. it stores the values in a dictionary.
+"""def func(**kwargs):
+    print(kwargs)
+func()""" # type is dictionary.
+# arguments do not come after **kwargs, first arguments are written and that last **kwargs is written.
